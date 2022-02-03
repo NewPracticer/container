@@ -1,13 +1,31 @@
 # container
-docker学习路径，及踩坑 
+docker学习路径及踩坑 
 
 ## docker文档
 + [文档](https://dockertips.readthedocs.io/en/latest/)
 
++ docker-compose
+    + docker-compose 基本命令行
+        + docker-compose pull
+        + docker-compose up -d
+        + docker-compose ps 
+        + docker-compose -p myproject ps 
+    + docker-compose镜像构建和获取
+        + build: 
+            + context: ./flask
+            + dockerfile:Dockerfile.dev
+    + docker-compose 更新
+        + docker-compose up -d
+        + docker-compose up -d --build 
+        + docker-compose up -d --remove-orphans
+    + docker-compose 水平扩展
+        + docker-compose up -d --scale flask=3
 
+### 学习课程 
++ https://coding.imooc.com/class/511.html
++ 推荐理由 从基础的命令行，到docker-compose，以及docker-swam全覆盖。并且配有基本的实战演示。
 
-
-#### docker windows 家庭版踩坑
+### docker windows 家庭版踩坑
 + 无法安装Hyper-V
     + 报错 ：enable-windowsoptionalfeature : 功能名称 microsoft-hyper-v 未知。
     + 解决办法

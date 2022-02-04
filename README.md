@@ -3,7 +3,14 @@ docker学习路径及踩坑
 
 ## docker文档
 + [文档](https://dockertips.readthedocs.io/en/latest/)
-
++ docker命令行
+    + docker image pull nginx 拉取一个镜像
+    + docker container stop 停止一个容器/批量停止，后面追加多个container id
+    + docker container run 运行一个容器
+    + docker coontaier ls 列出所有的容器
+    + docker container rm 删除一个容器
+    + docker container run -it 创建一个容器并进入交互式模式
+    + docker container exec -it 在一个已经运行的容器里执行一个额外的command
 + docker-compose
     + docker-compose 基本命令行
         + docker-compose pull

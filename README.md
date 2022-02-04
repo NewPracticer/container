@@ -30,6 +30,7 @@ docker学习路径及踩坑
 
 ### 学习课程 
 + https://coding.imooc.com/class/511.html
++ https://coding.imooc.com/class/189.html
 + 推荐理由 从基础的命令行，到docker-compose，以及docker-swam全覆盖。并且配有基本的实战演示。
 
 ### docker windows 家庭版踩坑
